@@ -1,6 +1,6 @@
 
-# LL Minecraft Challenge Map #2
-![alt text](https://github.com/LacledesLAN/data-MinecraftChallenge2/raw/master/OverheadMap.png "Overhead Map")
+# LL Minecraft Challenge Map #3
+![alt text](https://github.com/LacledesLAN/data-MinecraftChallenge3/raw/master/OverheadMap.png "Overhead Map")
 
 ## Commands Cheatsheet
 
@@ -44,12 +44,12 @@ Prevents players besides OP and players listed on the whitelist form connectiong
 ### Islands ###
 | Zone   | Spawn Room         |
 | ------ | ------------------ |
-| 1      | -104 66 -1562      |
-| 2      | 279 66 -1562       |
-| 3      | 663 66 -1562       |
-| 4      | -104 66 -1210      |
-| 5      | 279 66 -1210       |
-| 6      | 663 66 -1210       |
-| 7      | -104 66 -858       |
-| 8      | 279 66 -858        |
-| 9      | 663 66 -858        |
+| 1      |
+| 2      |
+| 3      |
+| 4      |
+| 5      |
+| 6      |
+| 7      |
+| 8      |
+| 9      |
