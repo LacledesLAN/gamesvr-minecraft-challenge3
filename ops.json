@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "5805414b-969d-48dc-9ca9-2a2c6e7e8f22",
+    "name": "dudsmack",
+    "level": 4,
+    "bypassesPlayerLimit": true
+  },
+  {
+    "uuid": "4389b797-ee91-4e30-be08-895eb3cbfe30",
+    "name": "goodBEan",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
