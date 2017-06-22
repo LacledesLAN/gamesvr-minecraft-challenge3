@@ -44,12 +44,12 @@ Prevents players besides OP and players listed on the whitelist form connectiong
 ### Islands ###
 | Zone   | Spawn Room         |
 | ------ | ------------------ |
-| 1      |
-| 2      |
-| 3      |
-| 4      |
-| 5      |
-| 6      |
-| 7      |
-| 8      |
-| 9      |
+| Spawn  | -1777  92  768
+| 1      | -1484  70  451
+| 2      | -1350  70  451
+| 3      | -1215  70  451
+| 4      | -1080  70  451
+| 5      | -1484  70  1134
+| 6      | -1350  70  1134
+| 7      | -1215  70  1134
+| 8      | -1080  70  1134
