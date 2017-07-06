@@ -1,7 +1,7 @@
 @ECHO OFF
 
 if exist .\mapcrafter_win64\mapcrafter.exe (
-    .\mapcrafter_win64\mapcrafter.exe -c render.conf
+    .\mapcrafter_win64\mapcrafter.exe -c .\mapcrafter_win64\render.conf
 ) else (
     echo Could not find "Mapcrafter"
     echo Download binaries from: https://mapcrafter.org/index
