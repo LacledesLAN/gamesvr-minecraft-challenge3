@@ -19,6 +19,11 @@
 /##world.UNDO##/
 
 
+### MapCrafter ###
+mapcrafter_*/*
+mapcrafter_*/*/
+!mapcrafter_*/render.conf
+
 ### Overviewer ##
 /overview-*/
 /overviewer/
