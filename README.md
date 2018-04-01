@@ -1,55 +1,35 @@
+# Laclede's LAN Minecraft Challenge 3
 
-# LL Minecraft Challenge Map #3
-![alt text](https://github.com/LacledesLAN/data-MinecraftChallenge3/raw/master/OverheadMap.png "Overhead Map")
+Minecraft world divided into multiple identical zones that are blocked off from each other. A build challenge is set and teams of 1 to 3 players gets assigned a zone. At the end each team's creation is judged.
 
-## Commands Cheatsheet
+Each zone has goodies, supplies, and [Easter-eggs](https://en.wikipedia.org/wiki/Easter_egg_(media)) spread throughout to encourage exploration. All players new to the server spawn in a 'spawn jail' which they cannot escape - an admin must teleport them to the appropriate zone.
 
-#### Set self to creative mode (must had admin rights)
-/gamemode 1
+![alt text](https://raw.githubusercontent.com/LacledesLAN/gamesvr-minecraft-challenge3/master/.docs/OverheadMap.png "Overhead Map")
 
-#### Night Vision
-`/effect @p minecraft:night_vision 99999 255`
+## Teleportation Coordinates
 
-#### Reset Vision
-`/effect @p clear`
+| Zone   |                 |
+| ------ | --------------- |
+| Jail   | -706 95 -1162   |
+| 1      | -1484  70  451  |
+| 2      | -1350  70  451  |
+| 3      | -1215  70  451  |
+| 4      | -1080  70  451  |
+| 5      | -1484  70  1134 |
+| 6      | -1350  70  1134 |
+| 7      | -1215  70  1134 |
+| 8      | -1080  70  1134 |
 
-#### Teleport to Player
-`tp [target player] <destination player>`
+## Admin Commands
 
-#### Teleport to Coordinates 
-`tp [target player] <x> <y> <z> [<yaw> <pitch>]`
-
-#### Give Barrier Blocks ####
-/give <player> minecraft:barrier
-
-#### set player spawnpoint ####
-/spawnpoint <player> <x> <y> <z>
-
-#### Set World spawnpoint ####
-/setworldspawn    
-/setworldspawn <x> <y> <z> 
-
-#### Set gamerule ####
-/gamerule <rule name> [value]
-
-#### Whitelist ###
-/whitelist on  
-Prevents players besides OP and players listed on the whitelist form connectiong. This will be used while judging
-
-## Coordinates for Teleportation ##
-
-### Spawn Jail ###
--706 95	-1162
-
-### Islands ###
-| Zone   | Spawn Room         |
-| ------ | ------------------ |
-| Spawn  | -1777  92  768
-| 1      | -1484  70  451
-| 2      | -1350  70  451
-| 3      | -1215  70  451
-| 4      | -1080  70  451
-| 5      | -1484  70  1134
-| 6      | -1350  70  1134
-| 7      | -1215  70  1134
-| 8      | -1080  70  1134
+| Description             | Command                                          | Notes |
+| ----------------------- | ------------------------------------------------ | ----- |
+| Enable whitelist        | `/whitelist on`                                  | Prevents players besides OP and players listed on the whitelist form connecting. Use while judging results. |
+| Teleport to player      | `tp [target player] <destination player>`        |       |
+| Teleport to coordinates | `tp [target player] <x> <y> <z> [<yaw> <pitch>]` |       |
+| Set world spawn         | `/setworldspawn`; `/setworldspawn <x> <y> <z>`   |       |
+| Set player spawn        | `/spawnpoint <player> <x> <y> <z>`               |       |
+| Set game rules          | `/gamerule <rule name> [value]`                  |       |
+| Night vision            | `/effect @p minecraft:night_vision 99999 255`    |       |
+| Reset vision            | `/effect @p clear`                               |       |
+| Give barrier block      | `/give <player> minecraft:barrier`               |       |
