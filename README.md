@@ -33,3 +33,17 @@ Each zone has goodies, supplies, and [Easter-eggs](https://en.wikipedia.org/wiki
 | Night vision            | `/effect @p minecraft:night_vision 99999 255`    |       |
 | Reset vision            | `/effect @p clear`                               |       |
 | Give barrier block      | `/give <player> minecraft:barrier`               |       |
+
+## Docker
+
+### Build
+
+```shell
+docker build -t lacledeslan/gamesvr-minecraft-challenge3 -f linux.Dockerfile .
+```
+
+### Run Interactive Server
+
+```shell
+docker run -d --rm -p 25565:25565 lacledeslan/gamesvr-minecraft-challenge3 java -Xms512M -Xmx1024M -jar /app/minecraft-server.jar nogui
+```
